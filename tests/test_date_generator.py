@@ -32,4 +32,6 @@ def test_random_date_excluded():
         }
     )
 
-    assert "No differing dates found"
+    returns = date_generator.rand_date(pd_input_dates_consecutive, 1)
+
+    assert returns == "No differing dates found"
