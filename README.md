@@ -6,7 +6,20 @@ The focus of the project is predicting whether certain environmental and weather
 
 ## Weather Features
 
-The weather features utilized for the model are 
+The weather features utilized for the model are as follows: 
+
+| Feature |       Rate        | Units  |     Definition    |
+|:-------:|:-----------------:|:------:|:-----------------:|
+| Soil Moisture | Hourly | m³/m³ |The average soil water content as volumetric mixing ratio at 0-7 cm. |
+| Surface Pressure | Hourly | hPa | Atmospheric air pressure, which usually decreases with increasing elevation|
+| Dew Point | Hourly | °F | Dew point temperature (temperature at which air becomes saturated with water vapor) at 2 meters above ground | 
+| Apparent Temperature | Hourly | °F | Apparent temperature is the perceived feels-like temperature combining wind chill factor, relative humidity and solar radiation |
+| Precipitation | Hourly | in | Total precipitation (rain, showers, snow) sum of the preceding hour. Data is stored with a 0.1 mm precision |
+| Wind Speed Max | Daily | mph | Maximum wind speed on a day |
+| Reference Evapotranspiration | Daily | mm | Daily sum of ET₀ Reference Evapotranspiration (the process by which water is transferred from the land to the atmosphere by evaporation) of a well watered grass field |
+| Temperature Max | Daily | °F | Maximum daily air temperature at 2 meters above ground |
+| Temperature Min | Daily | °F | Minimum daily air temperature at 2 meters above ground |
+
 
 ## Step by Step Overview:
 
