@@ -51,7 +51,7 @@ More details are provided within the .ipynb script - the flow of the project is 
 
 ## Usage
 
-The bulk of the project is within an .ipynb file to provide insight into model results and visualizations.
+The bulk of the project is within an .ipynb file to provide insight into model results and visualizations. ***Directory: Fire_Prediction/fire/Fire_Prediction.ipynb***
 
 To get started, first clone the repository. This will download a copy of the repository in your current working directory. 
 
