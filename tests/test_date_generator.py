@@ -1,6 +1,5 @@
 import datetime
 
-import numpy as np
 import pandas as pd
 
 from fire import date_generator
@@ -32,6 +31,5 @@ def test_random_date_excluded():
             ]
         }
     )
-    returned_dates_consecutive = date_generator.rand_date(pd_input_dates_consecutive, 1)
 
     assert "No differing dates found"

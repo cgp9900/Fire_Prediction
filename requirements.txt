@@ -20,7 +20,7 @@ fonttools==4.51.0
 idna==3.7
 iniconfig==2.0.0
 ipykernel==6.29.4
-ipython==8.18.1
+ipython==8.12.3
 isort==5.13.2
 jedi==0.19.1
 joblib==1.4.2
